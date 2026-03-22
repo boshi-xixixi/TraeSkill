@@ -29,7 +29,64 @@ TraeSkill 是一个标准化的 **AI 技能集合**，为 Trae IDE 的 `.trae/sk
 
 ***
 
-## 🚀 快速开始
+## � 工作原理
+
+### TraeSkill 在 Trae IDE 中的工作流
+
+```mermaid
+flowchart LR
+    U[开发者提问] --> T[Trae IDE]
+    T --> I[索引 .trae/skills 目录]
+    I --> D[00_Meta_Dispatcher 调度中心]
+
+    D --> P[01_ProductManager_Brainstorming<br/>产品需求与脑暴]
+    D --> A[01_Architect_TechStackSelector<br/>架构与技术选型]
+    D --> F[03_Developer_ReactBestPractices<br/>前端/React 最佳实践]
+    D --> B[05_Backend_Node / Python<br/>后端实现]
+    D --> QA[04_Tester_BrowserAutomation<br/>测试与自动化]
+    D --> O[05_DevOps_GitWorkflow / GitOps<br/>运维与发布]
+
+    P --> OUT[面向开发者的回答]
+    A --> OUT
+    F --> OUT
+    B --> OUT
+    QA --> OUT
+    O --> OUT
+```
+
+### Skill 分类概览（按生命周期分组）
+
+```mermaid
+flowchart TB
+    Core[TraeSkill 核心 Skill<br/>.trae/skills] --> Product[产研设计<br/>00/01/02 开头]
+    Core --> Dev[前后端开发<br/>03/05 开头]
+    Core --> QAOps[测试与运维<br/>04/05 开头]
+    Core --> SEO[增长与 SEO<br/>06 开头]
+    Core --> Docs[文档自动化<br/>06_Office_Docx]
+
+    Product --> P1[00_Meta_Dispatcher<br/>需求拆解与调度]
+    Product --> P2[01_ProductManager_Brainstorming]
+    Product --> P3[01_Architect_TechStackSelector / 02_Architect_APIDesign]
+    Product --> P4[02_Designer_UIUXIntelligence / WebGuidelines]
+
+    Dev --> D1[03_Developer_ArtifactsBuilder / ReactBestPractices]
+    Dev --> D2[03_Mobile_Flutter]
+    Dev --> D3[05_Backend_Node / Python / Database]
+
+    QAOps --> Q1[04_Tester_BrowserAutomation]
+    QAOps --> Q2[05_DevOps_GitWorkflow / GitOps]
+
+    SEO --> S1[06_SEO_ContentStrategy<br/>内容策略]
+    SEO --> S2[06_SEO_Technical<br/>技术优化]
+    SEO --> S3[06_SEO_Analytics<br/>数据分析]
+    SEO --> S4[06_SEO_LinkBuilding<br/>外链建设]
+
+    Docs --> Doc1[06_Office_Docx]
+```
+
+***
+
+## �🚀 快速开始
 
 ### 方式一：复制到你的项目中
 
@@ -41,7 +98,7 @@ git clone https://github.com/boshi-xixixi/TraeSkill.git
 
 ### 方式二：全局配置 skill
 
-将下载好的这个 skill 放到你的用户名下的 Trae 目录的 skill 的目录下即可，Trae 会自动索引到这个目录下的所有文件。（可以在设置中“规则和技能”中查看）
+将下载好的这个 skill 放到你的用户名下的 Trae 目录的 skill 的目录下即可，Trae 会自动索引到这个目录下的所有文件。（可以在设置中"规则和技能"中查看）
 
 ***
 
@@ -121,6 +178,20 @@ git clone https://github.com/boshi-xixixi/TraeSkill.git
 
 ***
 
+## 🌟 能力覆盖
+
+TraeSkill 覆盖了从"想做什么"到"如何上线"的完整软件开发生命周期：
+
+- 🧠 **Product & Design**：PRD 生成、需求澄清、用户故事拆解、设计系统
+- 🏗 **Architecture & Backend**：系统边界划分、接口设计、数据库建模、Node.js/Python 后端
+- 💻 **Frontend & Mobile**：React 性能优化、Flutter 架构、移动端开发
+- 🛡 **Quality & Operations**：浏览器自动化测试、安全审计、Git 工作流、CI/CD
+- 📈 **Growth & SEO**：内容策略、技术 SEO、数据分析、外链建设
+- 📄 **Office Automation**：Word/Excel/PDF 文档处理
+- 🤖 **AI Engineering**：RAG、LangChain、提示词优化
+
+***
+
 ## 📝 使用示例
 
 ### 🎯 产品需求
@@ -151,10 +222,10 @@ git clone https://github.com/boshi-xixixi/TraeSkill.git
 
 ## 🔗 更多信息
 
-\| 文档 | 说明 |
-\|:---|
-\| [使用指南](./Trae_Skills_使用指南.md) | 详细的技能使用说明 |
-\| [开发技能场景指南](./开发常用技能及场景指南.md) | 按场景分类的技能索引 |
+| 文档 | 说明 |
+|:---|
+| [使用指南](./Trae_Skills_使用指南.md) | 详细的技能使用说明 |
+| [开发技能场景指南](./开发常用技能及场景指南.md) | 按场景分类的技能索引 |
 
 ***
 
