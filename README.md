@@ -29,7 +29,7 @@ TraeSkill 是一个标准化的 **AI 技能集合**，为 Trae IDE 的 `.trae/sk
 
 ***
 
-## � 工作原理
+## 🗺 工作原理
 
 ### TraeSkill 在 Trae IDE 中的工作流
 
@@ -86,7 +86,7 @@ flowchart TB
 
 ***
 
-## � 快速开始
+## 🚀 快速开始
 
 ### 方式一：复制到你的项目中
 
