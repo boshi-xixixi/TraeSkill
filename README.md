@@ -238,3 +238,30 @@ TraeSkill 覆盖了从"想做什么"到"如何上线"的完整软件开发生命
 <p align="center">
   Made with ❤️ for the Trae Community
 </p>
+
+---
+
+## 🖱️ Cursor IDE 支持
+
+> 本功能由 `cursor_adapter/` 提供，以**非侵入方式**适配 Cursor IDE，不修改任何原有文件。
+
+### 安装步骤
+
+克隆本仓库后，在项目根目录运行：
+
+```bash
+python cursor_adapter/install.py
+```
+
+脚本会读取 `.trae/Skills/` 中的所有 skill，自动生成 Cursor 兼容的 `.cursor/skills/` 目录。Cursor 会自动识别并激活对应的 AI 技能。
+
+### 保持同步
+
+原项目新增或更新 skill 后，重新运行一次即可，**无需修改适配层代码**：
+
+```bash
+python cursor_adapter/install.py
+```
+
+> `.cursor/` 目录为生成产物，已加入 `.gitignore`，不影响原项目代码。
+> 详见 [`cursor_adapter/README_CURSOR.md`](./cursor_adapter/README_CURSOR.md)。
