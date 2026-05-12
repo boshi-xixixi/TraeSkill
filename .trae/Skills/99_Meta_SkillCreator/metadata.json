@@ -1,0 +1,20 @@
+{
+  "name": "SkillCreator",
+  "version": "1.0.0",
+  "description": "创建高质量 Skills 的完整工作流指导",
+  "category": "meta",
+  "dependencies": [],
+  "related_skills": [
+    "99_Meta_TraeProjectSetup",
+    "99_Meta_Customization",
+    "01_Discovery_GitHubSearch"
+  ],
+  "last_updated": "2026-05-12",
+  "author": "TraeSkill Team",
+  "tags": ["skill", "creator", "evaluation", "agent", "quality"],
+  "evaluation": {
+    "agents": ["Grader", "Comparator", "Analyzer"],
+    "token_cost": "~7500 tokens/完整评估",
+    "recommendation": "复杂 Skill 必须使用，简单 Skill 可选"
+  }
+}

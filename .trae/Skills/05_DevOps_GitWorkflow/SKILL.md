@@ -1,6 +1,6 @@
 ---
 name: git-workflow
-description: Git 版本控制与协作专家，涵盖 GitHub/Gitee 平台操作、Conventional Commits 规范及 PR/MR 最佳实践。
+description: 当用户需要规范化 Git 使用、进行代码协作或管理 Pull Request/Merge Request 时使用。此 Skill 提供 GitHub/Gitee 平台操作、Conventional Commits 规范及 PR/MR 最佳实践指导。
 ---
 
 # Git Workflow & Platform Collaboration

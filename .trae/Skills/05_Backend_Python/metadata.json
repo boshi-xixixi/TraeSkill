@@ -1,0 +1,15 @@
+{
+  "name": "Backend Python Expert",
+  "version": "1.0.0",
+  "description": "Python 后端开发专家",
+  "category": "backend",
+  "dependencies": [
+    "05_Backend_Database"
+  ],
+  "related_skills": [
+    "08_AI_Engineer"
+  ],
+  "last_updated": "2026-05-12",
+  "author": "TraeSkill Team",
+  "tags": ["python", "fastapi", "backend", "async"]
+}

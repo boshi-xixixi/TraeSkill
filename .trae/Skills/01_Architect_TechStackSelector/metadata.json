@@ -1,0 +1,14 @@
+{
+  "name": "Tech Stack Selector",
+  "version": "1.0.0",
+  "description": "技术栈选择与方案评估",
+  "category": "architecture",
+  "dependencies": [],
+  "related_skills": [
+    "02_Architect_APIDesign",
+    "05_Backend_Database"
+  ],
+  "last_updated": "2026-05-12",
+  "author": "TraeSkill Team",
+  "tags": ["tech-stack", "architecture", "selection"]
+}

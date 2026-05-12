@@ -1,0 +1,14 @@
+{
+  "name": "AI Engineer",
+  "version": "1.0.0",
+  "description": "LLM 应用开发专家",
+  "category": "ai",
+  "dependencies": [
+    "05_Backend_Python",
+    "05_Backend_Database"
+  ],
+  "related_skills": [],
+  "last_updated": "2026-05-12",
+  "author": "TraeSkill Team",
+  "tags": ["ai", "llm", "rag", "langchain"]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Design System Expert",
+  "version": "1.0.0",
+  "description": "品牌设计系统管理、Design Token、组件规范",
+  "category": "design",
+  "dependencies": [
+    "02_Designer_FrontendImplementation",
+    "02_Designer_UIUXIntelligence"
+  ],
+  "related_skills": [
+    "02_Designer_WebGuidelines",
+    "03_Developer_ReactBestPractices"
+  ],
+  "last_updated": "2026-05-12",
+  "author": "TraeSkill Team",
+  "tags": ["design-system", "design-token", "component", "brand"]
+}

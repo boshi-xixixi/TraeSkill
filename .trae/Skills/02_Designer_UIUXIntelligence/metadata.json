@@ -1,0 +1,14 @@
+{
+  "name": "UI/UX Intelligence Expert",
+  "version": "1.0.0",
+  "description": "UI/UX 设计智能库与推荐",
+  "category": "design",
+  "dependencies": [],
+  "related_skills": [
+    "02_Designer_FrontendImplementation",
+    "03_Developer_ArtifactsBuilder"
+  ],
+  "last_updated": "2026-05-12",
+  "author": "TraeSkill Team",
+  "tags": ["ui", "ux", "design-system", "design-intelligence"]
+}

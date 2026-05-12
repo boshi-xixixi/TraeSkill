@@ -1,6 +1,6 @@
 ---
 name: user-customization
-description: 指导用户如何自定义 Trae Skills 的配置，包括覆盖角色设定、调整技术偏好和定义全局规则。
+description: 当用户需要自定义 Trae Skills 的配置、覆盖角色设定、调整技术偏好或定义全局规则时使用。此 Skill 指导用户创建和修改 USER_PREFERENCES.md 文件。
 ---
 
 # User Customization & Preferences

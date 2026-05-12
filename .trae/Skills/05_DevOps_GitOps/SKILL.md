@@ -1,6 +1,6 @@
 ---
 name: gitops-workflow
-description: Implement GitOps workflows with ArgoCD and Flux for automated, declarative Kubernetes deployments with continuous reconciliation. Use when implementing GitOps practices, automating Kubernetes deployments, or setting up declarative infrastructure management.
+description: 当用户需要实现 GitOps 工作流、自动化 Kubernetes 部署或设置声明式基础设施管理时使用。此 Skill 提供使用 ArgoCD 和 Flux 实现自动化声明式持续交付的完整指南。
 ---
 
 # GitOps Workflow

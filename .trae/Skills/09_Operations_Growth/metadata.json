@@ -1,0 +1,13 @@
+{
+  "name": "Operations & Growth Expert",
+  "version": "1.0.0",
+  "description": "运营与增长专家",
+  "category": "operations",
+  "dependencies": [],
+  "related_skills": [
+    "06_Office_Docx"
+  ],
+  "last_updated": "2026-05-12",
+  "author": "TraeSkill Team",
+  "tags": ["operations", "growth", "content", "marketing"]
+}

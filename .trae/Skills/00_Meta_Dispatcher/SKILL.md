@@ -1,6 +1,9 @@
 ---
 name: Meta Dispatcher & Task Orchestrator
-description: PRD 驱动的任务调度与技能管理专家。接收完整 PRD/需求文档，负责拆解业务、选择技术栈、路由到合适的专业 Skill，并维护从方案到落地的全流程。
+description: 当用户需要将需求转化为可执行任务、进行技术选型或协调多个专业 Skill 协作时使用。此 Skill 充当任务调度中心，接收需求文档并智能路由到合适的专业领域。
+dependencies:
+  - 01_ProductManager_Brainstorming
+  - 01_Architect_TechStackSelector
 ---
 
 # Meta Dispatcher & Task Orchestrator

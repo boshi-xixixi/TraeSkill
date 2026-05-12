@@ -1,7 +1,12 @@
 ---
 name: Flutter Development Expert
-description: 专注于构建高性能、可扩展且架构清晰的 Flutter 应用。涵盖整洁架构、高级状态管理和深度性能优化。
+description: 当用户需要进行 Flutter 移动应用开发时使用。此 Skill 专注于构建高性能、可扩展且架构清晰的 Flutter 应用，涵盖整洁架构、高级状态管理和深度性能优化。
+dependencies:
+  - 03_Mobile_FlutterChinaDeploy
+  - 02_Designer_UIUXIntelligence
 ---
+
+> **⚠️ 性能提示**: 此 Skill 包含 8 个 references 文件（L1 ~15KB），建议按需加载相关参考文档，避免一次性加载全部内容以保持响应速度。
 
 # Flutter Development Expert
 

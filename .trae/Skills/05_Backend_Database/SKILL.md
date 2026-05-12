@@ -1,6 +1,6 @@
 ---
 name: Backend Database Expert
-description: 专注于数据库设计、SQL 优化和迁移策略。
+description: 当用户需要进行数据库设计、SQL 优化或数据库迁移时使用。此 Skill 专注于提供数据库架构设计、性能调优和数据迁移策略的专业指导。
 ---
 
 # Backend Database Skills

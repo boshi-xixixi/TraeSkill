@@ -1,6 +1,7 @@
 ---
 name: flutter-china-deploy
-description: Flutter 项目中国环境部署加速专家。用于在 Flutter 项目初始化、部署和运行时配置国内镜像加速。当用户需要：(1) 初始化 Flutter 项目并配置中国镜像加速 (2) 解决 Flutter 依赖下载慢的问题 (3) 配置 Gradle/Maven 国内镜像 (4) 快速部署 Flutter 项目到手机/模拟器 时使用此 Skill。
+description: 当用户需要在中国环境部署 Flutter 项目、配置国内镜像加速或解决依赖下载问题时使用。此 Skill 提供 Flutter 项目初始化、部署和运行时的完整镜像配置方案。
+dependencies: []
 ---
 
 # Flutter 中国环境部署加速

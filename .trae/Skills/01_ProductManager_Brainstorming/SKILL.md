@@ -1,6 +1,6 @@
 ---
 name: brainstorming
-description: "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation."
+description: 当用户需要进行创意发散、需求探索或产品规划时使用（无论是创建功能、构建组件、添加功能还是修改行为）。此 Skill 通过协作对话将想法转化为完整的设计方案和需求规格说明书。
 ---
 
 # Brainstorming Ideas Into Designs

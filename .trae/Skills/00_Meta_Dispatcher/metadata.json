@@ -1,0 +1,15 @@
+{
+  "name": "Meta Dispatcher",
+  "version": "1.0.0",
+  "description": "PRD 驱动的任务调度与技能管理专家",
+  "category": "meta",
+  "dependencies": [],
+  "related_skills": [
+    "01_ProductManager_Brainstorming",
+    "01_Architect_TechStackSelector",
+    "00_Meta_UniversalDevTeam"
+  ],
+  "last_updated": "2026-05-12",
+  "author": "TraeSkill Team",
+  "tags": ["dispatcher", "orchestrator", "task-management"]
+}

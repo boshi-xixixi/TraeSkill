@@ -1,0 +1,13 @@
+{
+  "name": "Brainstorming",
+  "version": "1.0.0",
+  "description": "创意发散与需求探索",
+  "category": "product",
+  "dependencies": [],
+  "related_skills": [
+    "01_Architect_TechStackSelector"
+  ],
+  "last_updated": "2026-05-12",
+  "author": "TraeSkill Team",
+  "tags": ["brainstorming", "requirements", "product"]
+}
