@@ -1,3 +1,9 @@
+---
+name: SkillCreator_Agents
+description: >
+  定义 Skill 创建和评估过程中使用的专业 Agent（Grader/Comparator/Analyzer）
+---
+
 # SkillCreator Agents
 
 本模块定义了 Skill 创建和评估过程中使用的专业 Agent。
