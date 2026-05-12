@@ -4,18 +4,23 @@
   <img src="https://img.shields.io/badge/Trae-Native-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDY0RkIiIHN0cm9rZS13aWR0aD0iMiI+PHBhdGggZD0iTTEwIDN2MTRhMiAyIDAgMCAxLTItMkg1YTIgMiAwIDAgMSAyLTJWNWgxNGMtMS4xIDAtMiAuOS0yIDJ6bTcgMTBoMTR2LTRoLTE0YTIgMiAwIDAgMSAtMi0ydi0xNGMxLjEgMCAyLS45IDItMnoiLz48L3N2Zz4=" alt="Trae Native" />
   <img src="https://img.shields.io/badge/AI-Powered-purple?style=for-the-badge" alt="AI Powered" />
   <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="License" />
+  <img src="https://img.shields.io/badge/Skills-36+-orange?style=for-the-badge" alt="Skills Count" />
+  <img src="https://img.shields.io/badge/Cursor-Supported-blueviolet?style=for-the-badge" alt="Cursor Supported" />
 </p>
 
 <h1 align="center">🚀 TraeSkill</h1>
 
 <p align="center">
   <strong>专为 Trae IDE 打造的 AI 技能与上下文增强库</strong>
+  <br>
+  <strong>同时支持 Cursor IDE 🎉</strong>
 </p>
 
 <p align="center">
   <a href="#-快速开始">快速开始</a> •
   <a href="#-技能目录">技能目录</a> •
-  <a href="#-使用示例">使用示例</a> •
+  <a href="#-图表生成套件">图表生成</a> •
+  <a href="#-cursor-ide-支持">Cursor IDE</a> •
   <a href="#-更多信息">更多信息</a>
 </p>
 
@@ -172,11 +177,19 @@ git clone https://github.com/boshi-xixixi/TraeSkill.git
 
 |  编号 | 技能                      | 说明       |
 | :-: | :---------------------- | :------- |
-|  99 | `Meta_SkillCreator`     | 创建新技能    |
-|  99 | `Meta_Customization`    | 用户偏好设置   |
-|  00 | `Meta_UniversalDevTeam` | 全能开发团队编排 |
+| 99 | `Meta_SkillCreator`     | 创建新技能    |
+| 99 | `Meta_Customization`    | 用户偏好设置   |
+| 00 | `Meta_UniversalDevTeam` | 全能开发团队编排 |
 
-***
+### 🎨 图表生成套件 `.agents/skills`
+
+| 编号 | 技能                             | 说明                  |
+| :-: | :----------------------------- | :------------------ |
+| 10 | `fireworks-tech-graph`         | AI/Agent 技术图表（SVG+PNG） |
+| 10 | `architecture-diagram`         | 专业深色主题架构图（HTML+PDF） |
+| 10 | `excalidraw-diagram-generator` | 手绘风格协作图表（在线编辑）   |
+
+---
 
 ## 🌟 能力覆盖
 
@@ -189,12 +202,93 @@ TraeSkill 覆盖了从"想做什么"到"如何上线"的完整软件开发生命
 - 📈 **Growth & SEO**：内容策略、技术 SEO、数据分析、外链建设
 - 📄 **Office Automation**：Word/Excel/PDF 文档处理
 - 🤖 **AI Engineering**：RAG、LangChain、提示词优化
+- 🎨 **图表生成**：技术架构图、流程图、UML 图、协作图表
 
-***
+---
+
+## 🎨 图表生成套件
+
+TraeSkill 提供三个互补的图表生成 Skill，覆盖 95%+ 的技术图表需求：
+
+### 1. 🎯 fireworks-tech-graph（通用技术图表）
+
+**输出格式**：SVG + PNG
+
+**核心优势**：
+- 🤖 AI/Agent 领域深度支持（RAG、Agent Loop、Memory 系统）
+- 📊 完整 UML 支持（14 种图类型）
+- 🎨 7 种视觉风格（Flat Icon、Dark Terminal、Blueprint 等）
+
+**适用场景**：Agent 架构、RAG Pipeline、技术文档、博客配图
+
+### 2. 🎨 architecture-diagram（专业深色架构图）
+
+**输出格式**：HTML + SVG + PNG + PDF
+
+**核心优势**：
+- 🌙 专业深色主题设计
+- ☁️ 云架构支持（AWS/GCP/Azure）
+- 📋 一键导出 PNG/PDF
+
+**适用场景**：云架构图、Kubernetes 部署、安全架构、深色主题演讲
+
+### 3. ✏️ excalidraw-diagram-generator（手绘协作图表）
+
+**输出格式**：.excalidraw JSON（在线编辑）
+
+**核心优势**：
+- 🎨 手绘风格美学
+- 👥 支持多人在线协作
+- ☁️ 支持云服务图标库（AWS/GCP/Azure）
+
+**适用场景**：快速原型、团队头脑风暴、客户演示
+
+### 📖 场景选择决策树
+
+```
+需要 AI/Agent 图表？
+  └─ 是 → fireworks-tech-graph ⭐
+  └─ 否
+      需要深色专业主题？
+        └─ 是 → architecture-diagram
+        └─ 否
+            需要在线协作？
+              └─ 是 → excalidraw-diagram-generator
+              └─ 否 → fireworks-tech-graph（默认）
+```
+
+**详细文档**：[DIAGRAM-SKILLS-GUIDE.md](./.trae/skills/.agents/skills/DIAGRAM-SKILLS-GUIDE.md)
+
+---
+
+## 🖥️ Cursor IDE 支持
+
+TraeSkill 同时支持 **Cursor IDE**！通过社区贡献的适配层，Cursor 用户也可以使用这些高质量的 Skill。
+
+### ✨ 主要特性
+
+- 🔌 **完全非侵入**：仅新增 `cursor_adapter/` 目录，不修改现有代码
+- 🔄 **动态自适应**：自动读取 Skill 并生成 Cursor 兼容文件
+- 📦 **功能完整**：AGENTS.md 自动合并，references/scripts/assets 完整复制
+
+### 🚀 安装使用
+
+```bash
+# 克隆仓库
+git clone https://github.com/boshi-xixixi/TraeSkill.git
+cd TraeSkill
+
+# 运行适配脚本
+python cursor_adapter/install.py
+```
+
+适配脚本会自动生成 Cursor 兼容的 `.cursor/skills/` 目录，后续项目更新时重新运行即可同步。
+
+**详细文档**：[cursor_adapter/README_CURSOR.md](./cursor_adapter/README_CURSOR.md)
+
+---
 
 ## 📝 使用示例
-
-### 🎯 产品需求
 
 > "我想做一个个人笔记 App，帮我梳理需求"
 
@@ -226,6 +320,7 @@ TraeSkill 覆盖了从"想做什么"到"如何上线"的完整软件开发生命
 |:---|:---|
 | [使用指南](./Trae_Skills_使用指南.md) | 详细的技能使用说明 |
 | [开发技能场景指南](./开发常用技能及场景指南.md) | 按场景分类的技能索引 |
+| [图表生成指南](./.trae/skills/.agents/skills/DIAGRAM-SKILLS-GUIDE.md) | 三个图表生成 Skill 的使用指南 |
 
 ***
 
