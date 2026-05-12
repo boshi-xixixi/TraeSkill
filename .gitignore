@@ -45,3 +45,6 @@ venv/
 
 # Trae (Ensure .trae/Skills are NOT ignored)
 #.trae/
+
+# Cursor IDE adapter — generated output, do not commit
+.cursor/
