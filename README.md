@@ -28,7 +28,7 @@
 
 ## ✨ 项目简介
 
-TraeSkill 是一个标准化的 **AI 技能集合**，为 Trae IDE 的 `.trae/skills` 机制设计。
+TraeSkill 是一个标准化的 **AI 技能集合**，为 Trae IDE 的 `.trae/Skills` 机制设计。
 
 **它的目标是**：把「行业最佳实践」沉淀为可复用的 Skill，让 AI 在 Trae 中扮演专业角色——产品经理、架构师、前端工程师、后端开发者、测试专家、SEO 专家等。
 
@@ -41,7 +41,7 @@ TraeSkill 是一个标准化的 **AI 技能集合**，为 Trae IDE 的 `.trae/sk
 ```mermaid
 flowchart LR
     U[开发者提问] --> T[Trae IDE]
-    T --> I[索引 .trae/skills 目录]
+    T --> I[索引 .trae/Skills 目录]
     I --> D[00_Meta_Dispatcher 调度中心]
 
     D --> P[01_ProductManager_Brainstorming<br/>产品需求与脑暴]
@@ -63,7 +63,7 @@ flowchart LR
 
 ```mermaid
 flowchart TB
-    Core[TraeSkill 核心 Skill<br/>.trae/skills] --> Product[产研设计<br/>00/01/02 开头]
+    Core[TraeSkill 核心 Skill<br/>.trae/Skills] --> Product[产研设计<br/>00/01/02 开头]
     Core --> Dev[前后端开发<br/>03/05 开头]
     Core --> QAOps[测试与运维<br/>04/05 开头]
     Core --> SEO[增长与 SEO<br/>06 开头]
@@ -99,7 +99,7 @@ flowchart TB
 git clone https://github.com/boshi-xixixi/TraeSkill.git
 ```
 
-在 Trae 中clone此仓库，AI 会自动索引到本项目中的 ./trae/skills 中的文件。
+在 Trae 中 clone 此仓库，AI 会自动索引项目中 `.trae/Skills` 目录里的文件。
 
 ### 方式二：全局配置 skill
 
@@ -257,7 +257,7 @@ TraeSkill 提供三个互补的图表生成 Skill，覆盖 95%+ 的技术图表�
               └─ 否 → fireworks-tech-graph（默认）
 ```
 
-**详细文档**：[DIAGRAM-SKILLS-GUIDE.md](./.trae/skills/.agents/skills/DIAGRAM-SKILLS-GUIDE.md)
+**详细文档**：[DIAGRAM-SKILLS-GUIDE.md](./.trae/Skills/.agents/skills/DIAGRAM-SKILLS-GUIDE.md)
 
 ---
 
@@ -320,7 +320,7 @@ python cursor_adapter/install.py
 |:---|:---|
 | [使用指南](./Trae_Skills_使用指南.md) | 详细的技能使用说明 |
 | [开发技能场景指南](./开发常用技能及场景指南.md) | 按场景分类的技能索引 |
-| [图表生成指南](./.trae/skills/.agents/skills/DIAGRAM-SKILLS-GUIDE.md) | 三个图表生成 Skill 的使用指南 |
+| [图表生成指南](./.trae/Skills/.agents/skills/DIAGRAM-SKILLS-GUIDE.md) | 三个图表生成 Skill 的使用指南 |
 
 ***
 

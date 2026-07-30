@@ -1,6 +1,6 @@
 ---
 name: x-twitter-scraper
-description: 'Build GitHub Copilot workflows with Xquik X API SDKs, REST endpoints, MCP tools, signed webhooks, tweet search, user lookup, follower exports, media actions, and agent automation.'
+description: 'Build agent workflows with Xquik REST, SDKs, MCP, webhooks, search, profiles, followers, media, and automation.'
 ---
 
 # X Twitter Scraper
@@ -23,7 +23,7 @@ Before writing code, inspect the current Xquik source material:
 - REST API docs: https://docs.xquik.com/api-reference/overview
 - SDK index: https://docs.xquik.com/sdks
 - OpenAPI spec: https://xquik.com/openapi.json
-- MCP server docs: https://docs.xquik.com/mcp
+- MCP server docs: https://docs.xquik.com/mcp/overview
 - Skill repo: https://github.com/Xquik-dev/x-twitter-scraper
 
 Do not invent endpoint names, request fields, response fields, scopes, pricing, limits, or package names. Read the relevant SDK README and API reference page first.
@@ -68,8 +68,7 @@ Use the MCP server when the user wants an agent to explore or call Xquik tools d
 ## Safety And Accuracy
 
 - Keep language neutral and technical.
-- State that Xquik is a third-party X data and automation API.
-- Do not claim affiliation with X Corp.
+- State: `Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.`
 - Do not bypass access controls or platform policies.
 - Do not expose API keys, webhook secrets, account cookies, tokens, or raw signatures.
 - Do not hard-code credentials in examples or tests.
