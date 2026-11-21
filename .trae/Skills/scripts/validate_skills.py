@@ -5,6 +5,7 @@ Skill 质量检查脚本
 """
 
 import argparse
+import json
 import re
 import sys
 from dataclasses import dataclass, field
@@ -62,8 +63,33 @@ class SkillValidator:
         self._check_skill_md(skill_dir, result)
         self._check_agents_md(skill_dir, result)
         self._check_directory_structure(skill_dir, result)
-        
+        self._check_metadata(skill_dir, result)
+
         return result
+
+    def _check_metadata(self, skill_dir: Path, result: ValidationResult) -> None:
+        """检查 metadata.json 的版本号与更新时间"""
+        meta = skill_dir / "metadata.json"
+        if not meta.exists():
+            result.warnings.append("缺少 metadata.json 文件 (记录版本与依赖关系)")
+            return
+        try:
+            data = json.loads(meta.read_text(encoding='utf-8'))
+        except json.JSONDecodeError as e:
+            result.errors.append(f"metadata.json 不是合法 JSON: {e}")
+            return
+
+        version = data.get('version')
+        if not version:
+            result.warnings.append("metadata.json 缺少 version 字段")
+        elif not re.fullmatch(r'\d+\.\d+\.\d+', str(version)):
+            result.warnings.append(f"version 不是语义化版本: {version}")
+
+        updated = data.get('last_updated')
+        if not updated:
+            result.warnings.append("metadata.json 缺少 last_updated 字段")
+        elif not re.fullmatch(r'\d{4}-\d{2}-\d{2}', str(updated)):
+            result.warnings.append(f"last_updated 不是 YYYY-MM-DD 格式: {updated}")
     
     def _check_directory_naming(self, skill_dir: Path, result: ValidationResult) -> None:
         """检查目录命名规范"""

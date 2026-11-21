@@ -5,6 +5,7 @@
   <img src="https://img.shields.io/badge/AI-Powered-purple?style=for-the-badge" alt="AI Powered" />
   <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="License" />
   <img src="https://img.shields.io/badge/Skills-45-orange?style=for-the-badge" alt="Skills Count" />
+  <img src="https://img.shields.io/badge/version-1.3.0-blue?style=for-the-badge" alt="Version" />
   <img src="https://img.shields.io/badge/Cursor-Supported-blueviolet?style=for-the-badge" alt="Cursor Supported" />
 </p>
 
@@ -31,6 +32,20 @@
 TraeSkill 是一个标准化的 **AI 技能集合**，为 Trae IDE 的 `.trae/Skills` 机制设计。
 
 **它的目标是**：把「行业最佳实践」沉淀为可复用的 Skill，让 AI 在 Trae 中扮演专业角色——产品经理、架构师、前端工程师、后端开发者、测试专家、SEO 专家等。
+
+***
+
+## 🆕 最近变更
+
+当前版本 **v1.3.0**（2026-11-21）· [完整更新日志](./CHANGELOG.md)
+
+| 版本 | 日期 | 主要变化 | 要不要同步 |
+|---|---|---|---|
+| 1.3.0 | 2026-11-21 | 4 个技能吸收外部方法论：数据分析对账校验、写作四层去 AI 味、性能「先量再改」、界面八条范式 | 建议同步 |
+| 1.2.0 | 2026-11-21 | 新增 5 个技能（产品调研 / 数据分析 / 部署 / 技术写作 / 演示），39 个技能补充触发词，三件套补齐 | 想用新技能就同步 |
+| 1.1.0 | 2026-11-21 | 仓库从 16 MB 瘦身到 3.8 MB，图表技能迁到 `10_Diagram_*`，修复 20 余处大小写死链 | **必须重新同步**（旧路径失效） |
+
+> 从旧版本同步的话，只看「要同步」这一列不够，请先读 [CHANGELOG](./CHANGELOG.md) 里对应版本的「变更」部分——目录改名这类改动不会自动生效。
 
 ***
 
@@ -335,6 +350,8 @@ python cursor_adapter/install.py
 
 | 文档 | 说明 |
 |:---|:---|
+| [更新日志](./CHANGELOG.md) | 每个版本改了什么、要不要同步 |
+| [贡献指南](./.github/CONTRIBUTING.md) | 命名、格式、版本号与提交规范 |
 | [使用指南](./Trae_Skills_使用指南.md) | 详细的技能使用说明 |
 | [开发技能场景指南](./开发常用技能及场景指南.md) | 按场景分类的技能索引 |
 | [图表生成指南](./.trae/Skills/10_Diagram_GUIDE.md) | 三个图表生成 Skill 的使用指南 |

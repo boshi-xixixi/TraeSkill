@@ -25,6 +25,20 @@ jobs:
       run: |
         python .trae/Skills/scripts/validate_skills.py
 
+    - name: Check version consistency
+      run: |
+        VER=$(cat VERSION | tr -d '[:space:]')
+        echo "当前版本: $VER"
+        if ! echo "$VER" | grep -Eq '^[0-9]+\.[0-9]+\.[0-9]+$'; then
+          echo "::error::VERSION 文件不是合法的语义化版本"
+          exit 1
+        fi
+        if ! grep -q "## \[$VER\]" CHANGELOG.md; then
+          echo "::error::CHANGELOG.md 缺少 $VER 的条目，请补充后重新提交"
+          exit 1
+        fi
+        echo "✓ VERSION 与 CHANGELOG 一致"
+
     - name: Check SKILL.md files
       run: |
         echo "Checking all SKILL.md files have required frontmatter..."
