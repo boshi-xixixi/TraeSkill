@@ -1,0 +1,14 @@
+{
+  "name": "Flutter 国内部署加速",
+  "version": "1.0.0",
+  "description": "配置国内镜像，解决 Flutter 依赖卡顿",
+  "category": "mobile",
+  "dependencies": [],
+  "related_skills": [
+    "03_Mobile_Flutter",
+    "05_DevOps_Deploy"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["flutter", "mirror", "gradle", "china"]
+}

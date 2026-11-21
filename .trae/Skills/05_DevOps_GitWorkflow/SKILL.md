@@ -1,8 +1,7 @@
 ---
 name: git-workflow
-description: 当用户需要规范化 Git 使用、进行代码协作或管理 Pull Request/Merge Request 时使用。此 Skill 提供 GitHub/Gitee 平台操作、Conventional Commits 规范及 PR/MR 最佳实践指导。
+description: 当用户需要规范化 Git 使用、进行代码协作或管理 Pull Request/Merge Request 时使用。此 Skill 提供 GitHub/Gitee 平台操作、Conventional Commits 规范及 PR/MR 最佳实践指导。 触发词：提交信息怎么写、分支怎么管、PR 描述、合并冲突。
 ---
-
 # Git Workflow & Platform Collaboration
 
 本 Skill 旨在指导开发者规范化使用 Git，并高效利用 GitHub、Gitee 等代码托管平台进行协作。

@@ -1,8 +1,7 @@
 ---
 name: webapp-testing
-description: 当用户需要测试本地 Web 应用功能、调试 UI 行为、抓取浏览器截图或查看控制台日志时使用。此 Skill 提供使用 Playwright 进行 Web 应用测试的工具集。
+description: 当用户需要测试本地 Web 应用功能、调试 UI 行为、抓取浏览器截图或查看控制台日志时使用。此 Skill 提供使用 Playwright 进行 Web 应用测试的工具集。 触发词：本地跑起来测一下、控制台报错、页面打不开、Playwright。
 ---
-
 # WebApp Testing
 
 使用 Playwright 进行本地 Web 应用测试的工具集。

@@ -1,0 +1,15 @@
+{
+  "name": "Technical Writer",
+  "version": "1.0.0",
+  "description": "技术写作：论文与报告结构、论证组织、引用格式与去 AI 腔",
+  "category": "writing",
+  "dependencies": [],
+  "related_skills": [
+    "06_Office_Docx",
+    "06_Writing_Presentation",
+    "03_Data_Analysis"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["writing", "thesis", "report", "citation", "editing"]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Node.js 后端专家",
+  "version": "1.0.0",
+  "description": "Node 服务架构、中间件与异步错误处理",
+  "category": "backend",
+  "dependencies": [],
+  "related_skills": [
+    "02_Architect_APIDesign",
+    "05_Backend_Database",
+    "05_Backend_Python"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["nodejs", "backend", "middleware", "async"]
+}

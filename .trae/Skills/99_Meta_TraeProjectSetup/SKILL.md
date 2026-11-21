@@ -1,8 +1,7 @@
 ---
 name: trae-project-setup
-description: Trae 项目规范化配置专家。用于快速初始化 Trae 项目配置文件、生成项目规则、用户偏好设置和 Skill 模板。当用户需要：(1) 初始化新项目的 Trae 配置 (2) 生成 .trae 目录结构 (3) 创建 USER_PREFERENCES.md 用户偏好文件 (4) 创建 project_rules.md 项目规则文件 (5) 创建新的 Skill 模板 时使用此 Skill。
+description: Trae 项目规范化配置专家。用于快速初始化 Trae 项目配置文件、生成项目规则、用户偏好设置和 Skill 模板。当用户需要：(1) 初始化新项目的 Trae 配置 (2) 生成 .trae 目录结构 (3) 创建 USER_PREFERENCES.md 用户偏好文件 (4) 创建 project_rules.md 项目规则文件 (5) 创建新的 Skill 模板 时使用此 Skill。 触发词：初始化项目、生成 .trae、项目规范配置、新建项目脚手架。
 ---
-
 # Trae Project Setup
 
 本 Skill 用于快速生成 Trae 项目所需的规范化配置文件，帮助项目实现标准化开发流程。

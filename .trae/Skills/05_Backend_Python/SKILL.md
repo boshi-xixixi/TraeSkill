@@ -1,10 +1,9 @@
 ---
 name: Backend Python Expert
-description: 当用户需要进行 Python 后端开发时使用。此 Skill 提供 FastAPI 开发、异步编程和性能优化等 Python 后端开发全栈能力支持。
+description: 当用户需要进行 Python 后端开发时使用。此 Skill 提供 FastAPI 开发、异步编程和性能优化等 Python 后端开发全栈能力支持。 触发词：FastAPI、Python 后端、异步爬虫、依赖注入。
 dependencies:
   - 05_Backend_Database
 ---
-
 # Backend Python Skills
 
 提供 Python 后端开发的全栈能力支持。

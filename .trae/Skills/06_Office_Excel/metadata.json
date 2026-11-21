@@ -1,0 +1,15 @@
+{
+  "name": "Excel 表格处理",
+  "version": "1.0.0",
+  "description": "xlsx 公式、格式、分析与重算校验",
+  "category": "office",
+  "dependencies": [],
+  "related_skills": [
+    "06_Office_Docx",
+    "06_Office_Pdf",
+    "03_Data_Analysis"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["xlsx", "excel", "formula", "pandas"]
+}

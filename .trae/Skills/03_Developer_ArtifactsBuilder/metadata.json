@@ -1,0 +1,15 @@
+{
+  "name": "HTML 原型构建器",
+  "version": "1.0.0",
+  "description": "用 React 与 shadcn 打包单文件原型",
+  "category": "frontend",
+  "dependencies": [],
+  "related_skills": [
+    "02_Designer_FrontendImplementation",
+    "03_Developer_ReactBestPractices",
+    "04_Tester_WebAppTesting"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["react", "tailwind", "shadcn", "prototype"]
+}

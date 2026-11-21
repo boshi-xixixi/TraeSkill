@@ -1,0 +1,15 @@
+{
+  "name": "MCP Server 构建",
+  "version": "1.0.0",
+  "description": "用 FastMCP 或 TS SDK 开发 MCP 服务",
+  "category": "ai",
+  "dependencies": [],
+  "related_skills": [
+    "05_Backend_Python",
+    "05_Backend_Node",
+    "01_Discovery_GitHubSearch"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["mcp", "llm", "tools", "sdk"]
+}

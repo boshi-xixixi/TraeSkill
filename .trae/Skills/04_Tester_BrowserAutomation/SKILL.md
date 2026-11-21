@@ -1,8 +1,7 @@
 ---
 name: Browser Automation Expert
-description: 当用户需要进行浏览器自动化、网页测试、数据抓取或 UI 自动化测试时使用。此 Skill 支持基于 MCP 工具（Puppeteer/Playwright）的实时交互，以及基于 Python 脚本的复杂自动化流程实现。
+description: 当用户需要进行浏览器自动化、网页测试、数据抓取或 UI 自动化测试时使用。此 Skill 支持基于 MCP 工具（Puppeteer/Playwright）的实时交互，以及基于 Python 脚本的复杂自动化流程实现。 触发词：自动化测试、爬页面、模拟点击、截图取证。
 ---
-
 # Browser Automation Expert
 
 **Description:** 浏览器自动化与网页测试专家。支持基于 MCP 工具（Puppeteer/Playwright）的实时交互，以及基于 Python 脚本的复杂自动化流实现。

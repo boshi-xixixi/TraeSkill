@@ -1,0 +1,15 @@
+{
+  "name": "SEO 数据分析",
+  "version": "1.0.0",
+  "description": "GSC 与 GA4 数据解读、排名与 ROI",
+  "category": "seo",
+  "dependencies": [],
+  "related_skills": [
+    "06_SEO_Technical",
+    "06_SEO_ContentStrategy",
+    "09_Operations_Growth"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["seo", "analytics", "gsc", "roi"]
+}

@@ -173,6 +173,7 @@ API 需求 → 02_Architect_APIDesign (API 设计)
 | [00_Meta_Dispatcher](00_Meta_Dispatcher/SKILL.md) | 1.0.0 | BRAIN, TECH | 所有 Skill |
 | [00_Meta_UniversalDevTeam](00_Meta_UniversalDevTeam/SKILL.md) | 1.0.0 | - | 所有 Skill |
 | [01_ProductManager_Brainstorming](01_ProductManager_Brainstorming/SKILL.md) | 1.0.0 | - | META, TEAM |
+| [01_PM_Research](01_PM_Research/SKILL.md) | 1.0.0 | BRAIN | SEO, DATA |
 | [01_Architect_TechStackSelector](01_Architect_TechStackSelector/SKILL.md) | 1.0.0 | - | META, TEAM |
 | [01_Discovery_GitHubSearch](01_Discovery_GitHubSearch/SKILL.md) | 1.0.0 | - | 所有开发 Skill |
 | [02_Architect_APIDesign](02_Architect_APIDesign/SKILL.md) | 1.0.0 | - | TECH, TEAM |
@@ -184,6 +185,7 @@ API 需求 → 02_Architect_APIDesign (API 设计)
 | [03_Mobile_FlutterChinaDeploy](03_Mobile_FlutterChinaDeploy/SKILL.md) | 1.0.0 | - | FLUTTER |
 | [03_Developer_ReactBestPractices](03_Developer_ReactBestPractices/SKILL.md) | 1.0.0 | - | ARTIFACTS, TEAM |
 | [03_Developer_ArtifactsBuilder](03_Developer_ArtifactsBuilder/SKILL.md) | 1.0.0 | UIUX, REACT | - |
+| [03_Data_Analysis](03_Data_Analysis/SKILL.md) | 1.0.0 | - | EXCEL, OPS, GRAPH |
 | [04_Tester_BrowserAutomation](04_Tester_BrowserAutomation/SKILL.md) | 1.0.0 | - | 所有前端 Skill |
 | [04_Tester_WebAppTesting](04_Tester_WebAppTesting/SKILL.md) | 1.0.0 | - | - |
 | [05_Backend_Database](05_Backend_Database/SKILL.md) | 1.0.0 | - | PYTHON, NODE, AI, TECH |
@@ -193,9 +195,12 @@ API 需求 → 02_Architect_APIDesign (API 设计)
 | [05_DevOps_GitOps](05_DevOps_GitOps/SKILL.md) | 1.0.0 | - | TEAM |
 | [05_DevOps_GitWorkflow](05_DevOps_GitWorkflow/SKILL.md) | 1.0.0 | - | TEAM |
 | [05_DevOps_GiteeWorkflow](05_DevOps_GiteeWorkflow/SKILL.md) | 1.0.0 | - | TEAM |
+| [05_DevOps_Deploy](05_DevOps_Deploy/SKILL.md) | 1.0.0 | GIT, PYTHON, NODE | SECURITY |
 | [06_Office_Docx](06_Office_Docx/SKILL.md) | 1.0.0 | - | OPS |
 | [06_Office_Excel](06_Office_Excel/SKILL.md) | 1.0.0 | - | - |
 | [06_Office_Pdf](06_Office_Pdf/SKILL.md) | 1.0.0 | - | - |
+| [06_Writing_Technical](06_Writing_Technical/SKILL.md) | 1.0.0 | DOCX, DATA | PRESENT |
+| [06_Writing_Presentation](06_Writing_Presentation/SKILL.md) | 1.0.0 | WRITE, DOCX | BRAIN |
 | [06_SEO_Analytics](06_SEO_Analytics/SKILL.md) | 1.0.0 | - | - |
 | [06_SEO_ContentStrategy](06_SEO_ContentStrategy/SKILL.md) | 1.0.0 | - | - |
 | [06_SEO_LinkBuilding](06_SEO_LinkBuilding/SKILL.md) | 1.0.0 | - | - |
@@ -206,9 +211,9 @@ API 需求 → 02_Architect_APIDesign (API 设计)
 | [99_Meta_SkillCreator](99_Meta_SkillCreator/SKILL.md) | 1.0.0 | - | PROJ |
 | [99_Meta_Customization](99_Meta_Customization/SKILL.md) | 1.0.0 | - | - |
 | [99_Meta_TraeProjectSetup](99_Meta_TraeProjectSetup/SKILL.md) | 1.0.0 | CREATOR | - |
-| [fireworks-tech-graph](.agents/skills/fireworks-tech-graph/SKILL.md) | 1.0.0 | AI | AI, ARCH_DIAGRAM, EXCALIDRAW |
-| [architecture-diagram](.agents/skills/architecture-diagram/SKILL.md) | 1.0.0 | FW_GRAPH | EXCALIDRAW |
-| [excalidraw-diagram-generator](.agents/skills/excalidraw-diagram-generator/SKILL.md) | 1.0.0 | ARCH_DIAGRAM | - |
+| [10_Diagram_FireworksTechGraph](10_Diagram_FireworksTechGraph/SKILL.md) | 1.0.0 | AI | ARCH, EXCALIDRAW |
+| [10_Diagram_Architecture](10_Diagram_Architecture/SKILL.md) | 1.0.0 | GRAPH | EXCALIDRAW |
+| [10_Diagram_Excalidraw](10_Diagram_Excalidraw/SKILL.md) | 1.0.0 | ARCH | - |
 
 ---
 

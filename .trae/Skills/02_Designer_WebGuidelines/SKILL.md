@@ -1,9 +1,8 @@
 ---
 name: web-design-guidelines
-description: 当用户需要审查 UI 代码、进行可访问性检查、设计审计或对照最佳实践检查网站时使用。此 Skill 对照 Web Interface Guidelines 和 WCAG 2.2 标准检查合规性，输出结构化的审查结果。
+description: 当用户需要审查 UI 代码、进行可访问性检查、设计审计或对照最佳实践检查网站时使用。此 Skill 对照 Web Interface Guidelines 和 WCAG 2.2 标准检查合规性，输出结构化的审查结果。 触发词：UI 审计、可访问性检查、对比度不够、检查一下这个页面。
 argument-hint: <file-or-pattern>
 ---
-
 > **⚠️ 性能提示**: 此 Skill 包含完整的 WCAG 2.2 检查清单。对于快速审查，可以只使用"快速检查清单"；对于完整审计，使用"详细检查清单"。
 
 ---

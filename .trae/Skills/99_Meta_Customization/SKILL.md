@@ -1,8 +1,7 @@
 ---
 name: user-customization
-description: 当用户需要自定义 Trae Skills 的配置、覆盖角色设定、调整技术偏好或定义全局规则时使用。此 Skill 指导用户创建和修改 USER_PREFERENCES.md 文件。
+description: 当用户需要自定义 Trae Skills 的配置、覆盖角色设定、调整技术偏好或定义全局规则时使用。此 Skill 指导用户创建和修改 USER_PREFERENCES.md 文件。 触发词：改技能、全局规则、偏好设置、USER_PREFERENCES、覆盖角色
 ---
-
 # User Customization & Preferences
 
 本 Skill 旨在帮助用户根据个人或团队的需求，定制 Trae 的行为模式。通过创建 `USER_PREFERENCES.md`，你可以让所有的 Skill 和 Agent 都遵循你的特定偏好。

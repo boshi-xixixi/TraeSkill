@@ -1,0 +1,16 @@
+{
+  "name": "Deploy Engineer",
+  "version": "1.0.0",
+  "description": "单机与轻量服务器部署：Nginx、HTTPS、Docker Compose、进程守护与故障排查",
+  "category": "devops",
+  "dependencies": [],
+  "related_skills": [
+    "05_DevOps_GitWorkflow",
+    "05_Backend_Python",
+    "05_Backend_Node",
+    "07_Security_Specialist"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["deploy", "nginx", "https", "docker", "ops"]
+}

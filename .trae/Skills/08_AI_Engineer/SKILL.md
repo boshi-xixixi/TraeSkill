@@ -1,8 +1,7 @@
 ---
 name: AI Engineer
-description: 专注于 LLM 应用开发，涵盖 RAG 和 LangChain 架构。
+description: 专注于 LLM 应用开发，涵盖 RAG 和 LangChain 架构。 触发词：RAG 怎么做、向量库选型、提示词优化、LangChain 怎么用。
 ---
-
 # AI Engineer Skills
 
 提供构建现代 AI 应用的核心能力。

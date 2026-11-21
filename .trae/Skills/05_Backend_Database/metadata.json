@@ -1,0 +1,15 @@
+{
+  "name": "数据库设计与优化",
+  "version": "1.0.0",
+  "description": "Schema 设计、SQL 调优与数据迁移",
+  "category": "backend",
+  "dependencies": [],
+  "related_skills": [
+    "05_Backend_Node",
+    "05_Backend_Python",
+    "02_Architect_APIDesign"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["database", "sql", "index", "migration"]
+}

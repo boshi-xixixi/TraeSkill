@@ -1,0 +1,15 @@
+{
+  "name": "Flutter 开发专家",
+  "version": "1.0.0",
+  "description": "Flutter 整洁架构与 Riverpod 状态管理",
+  "category": "mobile",
+  "dependencies": [],
+  "related_skills": [
+    "03_Mobile_FlutterChinaDeploy",
+    "02_Designer_UIUXIntelligence",
+    "02_Designer_DesignSystem"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["flutter", "dart", "riverpod", "mobile"]
+}

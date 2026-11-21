@@ -1,0 +1,15 @@
+{
+  "name": "Web 界面规范审查",
+  "version": "1.0.0",
+  "description": "对照 Web 指南与 WCAG 2.2 审查 UI",
+  "category": "design",
+  "dependencies": [],
+  "related_skills": [
+    "02_Designer_DesignSystem",
+    "02_Designer_Motion",
+    "07_Security_Specialist"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["accessibility", "wcag", "ui-audit", "design"]
+}

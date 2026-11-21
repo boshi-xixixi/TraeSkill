@@ -1,0 +1,14 @@
+{
+  "name": "浏览器自动化",
+  "version": "1.0.0",
+  "description": "用 MCP 或 Playwright 做浏览器自动化",
+  "category": "testing",
+  "dependencies": [],
+  "related_skills": [
+    "04_Tester_WebAppTesting",
+    "03_Developer_ArtifactsBuilder"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["browser", "automation", "playwright", "scraping"]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Web 应用测试",
+  "version": "1.0.0",
+  "description": "Playwright 本地功能验证与调试",
+  "category": "testing",
+  "dependencies": [],
+  "related_skills": [
+    "04_Tester_BrowserAutomation",
+    "02_Designer_WebGuidelines"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["playwright", "testing", "debugging", "e2e"]
+}

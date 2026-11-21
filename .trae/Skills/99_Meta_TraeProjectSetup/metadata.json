@@ -1,0 +1,15 @@
+{
+  "name": "Trae 项目初始化",
+  "version": "1.0.0",
+  "description": "生成 .trae 目录、项目规则与技能模板",
+  "category": "meta",
+  "dependencies": [],
+  "related_skills": [
+    "00_Meta_Dispatcher",
+    "99_Meta_Customization",
+    "99_Meta_SkillCreator"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["scaffold", "setup", "trae", "config"]
+}

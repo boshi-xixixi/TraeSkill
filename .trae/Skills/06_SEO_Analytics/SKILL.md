@@ -1,8 +1,7 @@
 ---
 name: seo-analytics
-description: "SEO 数据分析专家，擅长 Google Search Console、Google Analytics 数据分析、排名追踪和 ROI 计算。适用于 SEO 效果评估、策略调整和数据驱动决策时使用。"
+description: SEO 数据分析专家，擅长 Google Search Console、Google Analytics 数据分析、排名追踪和 ROI 计算。适用于 SEO 效果评估、策略调整和数据驱动决策时使用。 触发词：Search Console、自然流量、排名下降、SEO 效果评估。
 ---
-
 # SEO Analytics & Measurement
 
 ## Overview

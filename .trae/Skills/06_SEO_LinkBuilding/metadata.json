@@ -1,0 +1,15 @@
+{
+  "name": "外链与社交 SEO",
+  "version": "1.0.0",
+  "description": "外链获取、垃圾链接识别与品牌曝光",
+  "category": "seo",
+  "dependencies": [],
+  "related_skills": [
+    "06_SEO_ContentStrategy",
+    "06_SEO_Analytics",
+    "09_Operations_Growth"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["seo", "backlink", "outreach", "brand"]
+}

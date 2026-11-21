@@ -1,0 +1,15 @@
+{
+  "name": "架构图生成",
+  "version": "1.0.0",
+  "description": "输出深色主题自包含 HTML+SVG 架构图",
+  "category": "diagram",
+  "dependencies": [],
+  "related_skills": [
+    "10_Diagram_Excalidraw",
+    "10_Diagram_FireworksTechGraph",
+    "02_Designer_FrontendImplementation"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["architecture", "svg", "html", "topology"]
+}

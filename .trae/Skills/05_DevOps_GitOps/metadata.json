@@ -1,0 +1,14 @@
+{
+  "name": "GitOps 声明式交付",
+  "version": "1.0.0",
+  "description": "用 ArgoCD 与 Flux 做 Kubernetes 交付",
+  "category": "devops",
+  "dependencies": [],
+  "related_skills": [
+    "05_DevOps_Deploy",
+    "05_DevOps_GitWorkflow"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["gitops", "argocd", "flux", "kubernetes"]
+}

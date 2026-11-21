@@ -6,8 +6,8 @@ description: >-
   SVG+PNG. Trigger on: "画图" "帮我画" "生成图" "做个图" "架构图" "流程图"
   "可视化一下" "出图" "generate diagram" "draw diagram" "visualize" or any
   system/flow description the user wants illustrated.
+  触发词：画图、帮我画、生成图、做个图、架构图、流程图、可视化一下、出图。
 ---
-
 # Fireworks Tech Graph
 
 Generate production-quality SVG technical diagrams exported as PNG via `cairosvg` (recommended), `rsvg-convert`, or `puppeteer`.

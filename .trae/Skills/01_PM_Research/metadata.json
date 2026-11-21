@@ -1,0 +1,15 @@
+{
+  "name": "PM Researcher",
+  "version": "1.0.0",
+  "description": "产品调研：竞品分析、用户访谈、RICE/KANO 优先级与指标体系",
+  "category": "product",
+  "dependencies": [],
+  "related_skills": [
+    "01_ProductManager_Brainstorming",
+    "06_SEO_Analytics",
+    "03_Data_Analysis"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["product", "research", "competitor", "priority", "metrics"]
+}

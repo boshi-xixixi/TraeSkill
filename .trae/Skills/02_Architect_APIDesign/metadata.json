@@ -1,0 +1,15 @@
+{
+  "name": "API 设计原则",
+  "version": "1.0.0",
+  "description": "REST 与 GraphQL 接口设计与规范审查",
+  "category": "backend",
+  "dependencies": [],
+  "related_skills": [
+    "05_Backend_Node",
+    "05_Backend_Python",
+    "07_Security_Specialist"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["api", "rest", "graphql", "architecture"]
+}

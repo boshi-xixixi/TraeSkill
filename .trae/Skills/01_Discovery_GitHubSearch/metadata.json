@@ -1,0 +1,15 @@
+{
+  "name": "GitHub 开源发现",
+  "version": "1.0.0",
+  "description": "在 GitHub 找现成库与 MCP Server",
+  "category": "meta",
+  "dependencies": [],
+  "related_skills": [
+    "00_Meta_Dispatcher",
+    "01_Architect_TechStackSelector",
+    "05_Backend_MCPBuilder"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["github", "open-source", "discovery", "mcp"]
+}

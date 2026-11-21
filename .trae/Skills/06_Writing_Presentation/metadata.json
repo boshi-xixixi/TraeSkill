@@ -1,0 +1,15 @@
+{
+  "name": "Presentation Coach",
+  "version": "1.0.0",
+  "description": "演示与答辩：结构设计、时间控制、讲稿撰写与问答准备",
+  "category": "communication",
+  "dependencies": [],
+  "related_skills": [
+    "06_Writing_Technical",
+    "06_Office_Docx",
+    "01_ProductManager_Brainstorming"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["presentation", "defense", "pitch", "speech"]
+}

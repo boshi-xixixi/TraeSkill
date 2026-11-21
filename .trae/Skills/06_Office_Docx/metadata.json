@@ -1,0 +1,15 @@
+{
+  "name": "Word 文档处理",
+  "version": "1.0.0",
+  "description": "docx 生成、修订批注与 OOXML 编辑",
+  "category": "office",
+  "dependencies": [],
+  "related_skills": [
+    "06_Office_Pdf",
+    "06_Office_Excel",
+    "06_Writing_Technical"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["docx", "ooxml", "word", "document"]
+}

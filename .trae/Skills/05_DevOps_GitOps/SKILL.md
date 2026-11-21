@@ -1,8 +1,7 @@
 ---
 name: gitops-workflow
-description: 当用户需要实现 GitOps 工作流、自动化 Kubernetes 部署或设置声明式基础设施管理时使用。此 Skill 提供使用 ArgoCD 和 Flux 实现自动化声明式持续交付的完整指南。
+description: 当用户需要实现 GitOps 工作流、自动化 Kubernetes 部署或设置声明式基础设施管理时使用。此 Skill 提供使用 ArgoCD 和 Flux 实现自动化声明式持续交付的完整指南。 触发词：ArgoCD、K8s 部署、声明式交付、Helm。
 ---
-
 # GitOps Workflow
 
 ## 🤖 智能体与 MCP 增强 (Agent & MCP Enhancements)

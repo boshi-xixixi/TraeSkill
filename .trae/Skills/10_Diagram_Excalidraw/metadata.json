@@ -1,0 +1,15 @@
+{
+  "name": "Excalidraw 图表生成",
+  "version": "1.0.0",
+  "description": "生成可在线编辑的 .excalidraw 图表",
+  "category": "diagram",
+  "dependencies": [],
+  "related_skills": [
+    "10_Diagram_Architecture",
+    "10_Diagram_FireworksTechGraph",
+    "02_Designer_FrontendImplementation"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["excalidraw", "flowchart", "mindmap", "diagram"]
+}

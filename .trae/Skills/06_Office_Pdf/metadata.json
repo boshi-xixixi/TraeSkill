@@ -1,0 +1,14 @@
+{
+  "name": "PDF 文档处理",
+  "version": "1.0.0",
+  "description": "PDF 文本表格提取、合并拆分与表单",
+  "category": "office",
+  "dependencies": [],
+  "related_skills": [
+    "06_Office_Docx",
+    "06_Office_Excel"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["pdf", "extract", "forms", "merge"]
+}

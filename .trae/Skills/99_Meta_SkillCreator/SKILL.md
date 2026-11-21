@@ -1,9 +1,8 @@
 ---
 name: skill-creator
-description: 当用户需要创建新 Skill 或更新现有 Skill 时使用。此 Skill 提供技能创建的完整工作流指导，包括需求分析、编写规范、工程化构建、质量评估和迭代优化。
+description: 当用户需要创建新 Skill 或更新现有 Skill 时使用。此 Skill 提供技能创建的完整工作流指导，包括需求分析、编写规范、工程化构建、质量评估和迭代优化。 触发词：写个新技能、加个 skill、技能怎么写、封装角色。
 license: Complete terms in LICENSE.txt
 ---
-
 > **⚠️ 性能提示**: 此 Skill 包含完整的评估体系（Grader/Comparator/Analyzer），适合在创建重要 Skill 时使用。对于简单 Skill，可跳过评估环节。
 
 # Skill Creator

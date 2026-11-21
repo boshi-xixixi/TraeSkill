@@ -1,0 +1,15 @@
+{
+  "name": "Git 协作规范",
+  "version": "1.0.0",
+  "description": "提交规范、分支策略与 PR/MR 流程",
+  "category": "devops",
+  "dependencies": [],
+  "related_skills": [
+    "05_DevOps_GiteeWorkflow",
+    "05_DevOps_GitOps",
+    "05_DevOps_Deploy"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["git", "commit", "branch", "pull-request"]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "技术 SEO",
+  "version": "1.0.0",
+  "description": "Core Web Vitals、结构化数据与收录修复",
+  "category": "seo",
+  "dependencies": [],
+  "related_skills": [
+    "06_SEO_Analytics",
+    "02_Designer_WebGuidelines",
+    "05_DevOps_Deploy"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["seo", "core-web-vitals", "schema", "crawling"]
+}

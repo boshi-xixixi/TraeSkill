@@ -55,6 +55,7 @@ Trae 会自动索引 `.trae/Skills` 下的所有 Markdown 文件。
 ### 💡 01. Product Manager (产品经理)
 **目标**: 将模糊的想法转化为清晰的需求。
 - **[01_ProductManager_Brainstorming](.trae/Skills/01_ProductManager_Brainstorming/SKILL.md)**: 深度头脑风暴与需求挖掘。
+- **[01_PM_Research](.trae/Skills/01_PM_Research/SKILL.md)**: 竞品分析、用户调研与需求排序。
 - **[01_Architect_TechStackSelector](.trae/Skills/01_Architect_TechStackSelector/SKILL.md)**: 技术栈选型与方案对比。
 - **[01_Discovery_GitHubSearch](.trae/Skills/01_Discovery_GitHubSearch/SKILL.md)**: GitHub 开源库检索与选型。
 
@@ -71,6 +72,7 @@ Trae 会自动索引 `.trae/Skills` 下的所有 Markdown 文件。
 **目标**: 构建高质量的用户界面。
 - **[03_Developer_ReactBestPractices](.trae/Skills/03_Developer_ReactBestPractices/SKILL.md)**: React/Next.js 性能与规范专家。
 - **[03_Developer_ArtifactsBuilder](.trae/Skills/03_Developer_ArtifactsBuilder/SKILL.md)**: 现代 UI 组件构建器。
+- **[03_Data_Analysis](.trae/Skills/03_Data_Analysis/SKILL.md)**: 数据清洗、EDA 与可视化。
 - **[03_Mobile_Flutter](.trae/Skills/03_Mobile_Flutter/SKILL.md)**: Flutter 整洁架构与性能优化专家。
 - **[03_Mobile_FlutterChinaDeploy](.trae/Skills/03_Mobile_FlutterChinaDeploy/SKILL.md)**: Flutter 国内镜像与部署加速。
 
@@ -88,12 +90,15 @@ Trae 会自动索引 `.trae/Skills` 下的所有 Markdown 文件。
 - **[05_DevOps_GitOps](.trae/Skills/05_DevOps_GitOps/SKILL.md)**: Kubernetes GitOps 部署流。
 - **[05_DevOps_GitWorkflow](.trae/Skills/05_DevOps_GitWorkflow/SKILL.md)**: Git 提交规范、GitHub/Gitee 平台协作指南。
 - **[05_DevOps_GiteeWorkflow](.trae/Skills/05_DevOps_GiteeWorkflow/SKILL.md)**: Gitee 平台 Issue/PR 自动化。
+- **[05_DevOps_Deploy](.trae/Skills/05_DevOps_Deploy/SKILL.md)**: 单机部署、Nginx、HTTPS 与排错。
 
 ### 📂 06. Office Utilities (办公助手)
 **目标**: 处理复杂的办公文档。
 - **[06_Office_Docx](.trae/Skills/06_Office_Docx/SKILL.md)**: Word 文档处理。
 - **[06_Office_Excel](.trae/Skills/06_Office_Excel/SKILL.md)**: Excel 数据分析。
 - **[06_Office_Pdf](.trae/Skills/06_Office_Pdf/SKILL.md)**: PDF 处理与提取。
+- **[06_Writing_Technical](.trae/Skills/06_Writing_Technical/SKILL.md)**: 论文与报告结构、引用规范、去 AI 腔。
+- **[06_Writing_Presentation](.trae/Skills/06_Writing_Presentation/SKILL.md)**: 答辩与路演结构、讲稿与问答。
 
 ### 🔍 06. SEO (搜索优化)
 **目标**: 让页面既能被搜索引擎读懂，也能转化。

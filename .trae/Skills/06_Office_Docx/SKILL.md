@@ -1,9 +1,10 @@
 ---
 name: docx
-description: "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks"
+description: >-
+  Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks
+  触发词：改 Word、批注修订、生成 docx、文档排版。
 license: Proprietary. LICENSE.txt has complete terms
 ---
-
 # DOCX creation, editing, and analysis
 
 ## 🤖 智能体与 MCP 增强 (Agent & MCP Enhancements)

@@ -1,8 +1,7 @@
 ---
 name: vercel-react-best-practices
-description: 当用户需要编写、审查或重构 React/Next.js 代码时使用。此 Skill 提供来自 Vercel Engineering 的 React 和 Next.js 性能优化指南，包含 45 条规则，涵盖组件优化、bundle 大小、数据获取等方面。
+description: 当用户需要编写、审查或重构 React/Next.js 代码时使用。此 Skill 提供来自 Vercel Engineering 的 React 和 Next.js 性能优化指南，包含 45 条规则，涵盖组件优化、bundle 大小、数据获取等方面。 触发词：React 性能、水合报错、useEffect 写错了、Next.js 变慢。
 ---
-
 > **⚠️ 性能提示**: 此 Skill 包含 45 个 rules 文件（L1 ~50KB），专注于 React 性能优化。请根据实际场景选择性应用规则，优先处理 CRITICAL 和 HIGH 优先级的规则。
 
 ---

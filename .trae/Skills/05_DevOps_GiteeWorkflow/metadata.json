@@ -1,0 +1,15 @@
+{
+  "name": "Gitee 工作流自动化",
+  "version": "1.0.0",
+  "description": "Gitee 上的 Issue、PR 与发布自动化",
+  "category": "devops",
+  "dependencies": [],
+  "related_skills": [
+    "05_DevOps_GitWorkflow",
+    "05_DevOps_GitOps",
+    "05_DevOps_Deploy"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["gitee", "pr", "issue", "release"]
+}

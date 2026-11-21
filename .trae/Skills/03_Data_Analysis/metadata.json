@@ -1,0 +1,15 @@
+{
+  "name": "Data Analysis Expert",
+  "version": "1.0.0",
+  "description": "数据分析与可视化：清洗、EDA、图表选型、统计陷阱与结论表达",
+  "category": "data",
+  "dependencies": [],
+  "related_skills": [
+    "06_Office_Excel",
+    "09_Operations_Growth",
+    "10_Diagram_FireworksTechGraph"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["data", "pandas", "visualization", "statistics", "report"]
+}

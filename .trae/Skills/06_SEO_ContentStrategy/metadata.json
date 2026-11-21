@@ -1,0 +1,15 @@
+{
+  "name": "SEO 内容策略",
+  "version": "1.0.0",
+  "description": "关键词研究、内容规划与长尾词布局",
+  "category": "seo",
+  "dependencies": [],
+  "related_skills": [
+    "06_SEO_Technical",
+    "06_SEO_Analytics",
+    "06_SEO_LinkBuilding"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["seo", "keyword", "content", "landing-page"]
+}

@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Trae-Native-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDY0RkIiIHN0cm9rZS13aWR0aD0iMiI+PHBhdGggZD0iTTEwIDN2MTRhMiAyIDAgMCAxLTItMkg1YTIgMiAwIDAgMSAyLTJWNWgxNGMtMS4xIDAtMiAuOS0yIDJ6bTcgMTBoMTR2LTRoLTE0YTIgMiAwIDAgMSAtMi0ydi0xNGMxLjEgMCAyLS45IDItMnoiLz48L3N2Zz4=" alt="Trae Native" />
   <img src="https://img.shields.io/badge/AI-Powered-purple?style=for-the-badge" alt="AI Powered" />
   <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="License" />
-  <img src="https://img.shields.io/badge/Skills-39-orange?style=for-the-badge" alt="Skills Count" />
+  <img src="https://img.shields.io/badge/Skills-45-orange?style=for-the-badge" alt="Skills Count" />
   <img src="https://img.shields.io/badge/Cursor-Supported-blueviolet?style=for-the-badge" alt="Cursor Supported" />
 </p>
 
@@ -122,6 +122,7 @@ cp -R .trae/Skills/* ~/.trae-cn/skills/
 | :-: | :----------------------------- | :------------------ |
 |  00 | `Meta_Dispatcher`              | 任务调度与需求拆解           |
 |  01 | `ProductManager_Brainstorming` | 需求头脑风暴与 PRD 生成      |
+|  01 | `PM_Research`                  | 竞品分析、用户调研与需求排序     |
 |  01 | `Architect_TechStackSelector`  | 技术栈选型与评估            |
 |  01 | `Discovery_GitHubSearch`       | GitHub 开源库检索与选型      |
 |  02 | `Architect_APIDesign`          | REST/GraphQL API 设计 |
@@ -137,6 +138,7 @@ cp -R .trae/Skills/* ~/.trae-cn/skills/
 | :-: | :----------------------------- | :------------------ |
 |  03 | `Developer_ReactBestPractices` | React/Next.js 性能优化  |
 |  03 | `Developer_ArtifactsBuilder`   | 前端组件快速构建            |
+|  03 | `Data_Analysis`                | 数据清洗、EDA 与可视化       |
 |  03 | `Mobile_Flutter`               | Flutter 架构与性能       |
 |  03 | `Mobile_FlutterChinaDeploy`    | Flutter 中国镜像加速      |
 |  05 | `Backend_Node`                 | Node.js 后端模式        |
@@ -153,6 +155,7 @@ cp -R .trae/Skills/* ~/.trae-cn/skills/
 |  05 | `DevOps_GitWorkflow`       | Git 工作流规范   |
 |  05 | `DevOps_GitOps`            | GitOps 部署实践 |
 |  05 | `DevOps_GiteeWorkflow`     | Gitee 自动化   |
+|  05 | `DevOps_Deploy`            | 单机部署、Nginx 与 HTTPS |
 
 ### 📈 增长与 SEO `06`
 
@@ -170,6 +173,8 @@ cp -R .trae/Skills/* ~/.trae-cn/skills/
 |  06 | `Office_Docx`  | Word 文档处理   |
 |  06 | `Office_Excel` | Excel 数据分析  |
 |  06 | `Office_Pdf`   | PDF 处理与表单填写 |
+|  06 | `Writing_Technical` | 论文与报告结构、引用格式   |
+|  06 | `Presentation` | 答辩与路演结构、讲稿     |
 
 ### 🤖 AI 与安全 `07-08`
 

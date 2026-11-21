@@ -1,0 +1,15 @@
+{
+  "name": "应用安全专家",
+  "version": "1.0.0",
+  "description": "认证授权、OWASP 防护与合规审计",
+  "category": "security",
+  "dependencies": [],
+  "related_skills": [
+    "02_Architect_APIDesign",
+    "05_Backend_Node",
+    "05_Backend_Python"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["security", "owasp", "auth", "gdpr"]
+}

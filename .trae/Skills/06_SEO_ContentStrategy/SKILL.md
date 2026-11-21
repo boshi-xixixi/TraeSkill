@@ -1,8 +1,7 @@
 ---
 name: seo-content-strategy
-description: "SEO 内容策略专家，擅长关键词研究、内容规划、长尾词布局和内容营销策略。适用于创建 SEO 友好的文章 landing page 和营销内容时使用。"
+description: SEO 内容策略专家，擅长关键词研究、内容规划、长尾词布局和内容营销策略。适用于创建 SEO 友好的文章 landing page 和营销内容时使用。 触发词：关键词研究、写落地页、长尾词、内容规划。
 ---
-
 # SEO Content Strategy
 
 ## Overview

@@ -1,0 +1,15 @@
+{
+  "name": "前端界面实现",
+  "version": "1.0.0",
+  "description": "打造无 AI 塑料感的高质量网页界面",
+  "category": "frontend",
+  "dependencies": [],
+  "related_skills": [
+    "02_Designer_DesignSystem",
+    "02_Designer_WebGuidelines",
+    "02_Designer_Motion"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["frontend", "ui", "design", "implementation"]
+}

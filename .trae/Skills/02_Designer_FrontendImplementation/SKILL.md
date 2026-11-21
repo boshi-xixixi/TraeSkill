@@ -1,9 +1,8 @@
 ---
 name: frontend-design
-description: 当用户需要构建网页组件、页面、应用程序或任何 Web UI（网站、着陆页、仪表板、React 组件、HTML/CSS 布局）时使用。此 Skill 生成独特、生产级的前端界面，注重高质量设计和避免通用 AI 风格。
+description: 当用户需要构建网页组件、页面、应用程序或任何 Web UI（网站、着陆页、仪表板、React 组件、HTML/CSS 布局）时使用。此 Skill 生成独特、生产级的前端界面，注重高质量设计和避免通用 AI 风格。 触发词：写个页面、组件怎么写、还原设计稿、页面太丑。
 license: Complete terms in LICENSE.txt
 ---
-
 > **⚠️ 性能提示**: 此 Skill 专注于设计理念和美学规范，不包含具体的实现代码。设计阶段完成后，配合 ReactBestPractices Skill 进行性能优化。
 
 ---
