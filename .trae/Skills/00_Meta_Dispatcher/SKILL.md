@@ -81,7 +81,7 @@ dependencies:
 
 **执行逻辑**：
 1.  **提取模式**：分析操作步骤，抽象出通用模板。
-2.  **提议/生成**：为用户生成新的 `SKILL.md` 到 `.trae/skills/` 下，必须包含 `name` 和 `description` YAML Frontmatter。
+2.  **提议/生成**：为用户生成新的 `SKILL.md` 到 `.trae/Skills/` 下，必须包含 `name` 和 `description` YAML Frontmatter。
 
 ---
 

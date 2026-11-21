@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Trae-Native-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDY0RkIiIHN0cm9rZS13aWR0aD0iMiI+PHBhdGggZD0iTTEwIDN2MTRhMiAyIDAgMCAxLTItMkg1YTIgMiAwIDAgMSAyLTJWNWgxNGMtMS4xIDAtMiAuOS0yIDJ6bTcgMTBoMTR2LTRoLTE0YTIgMiAwIDAgMSAtMi0ydi0xNGMxLjEgMCAyLS45IDItMnoiLz48L3N2Zz4=" alt="Trae Native" />
   <img src="https://img.shields.io/badge/AI-Powered-purple?style=for-the-badge" alt="AI Powered" />
   <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="License" />
-  <img src="https://img.shields.io/badge/Skills-36+-orange?style=for-the-badge" alt="Skills Count" />
+  <img src="https://img.shields.io/badge/Skills-39-orange?style=for-the-badge" alt="Skills Count" />
   <img src="https://img.shields.io/badge/Cursor-Supported-blueviolet?style=for-the-badge" alt="Cursor Supported" />
 </p>
 
@@ -28,7 +28,7 @@
 
 ## ✨ 项目简介
 
-TraeSkill 是一个标准化的 **AI 技能集合**，为 Trae IDE 的 `.trae/skills` 机制设计。
+TraeSkill 是一个标准化的 **AI 技能集合**，为 Trae IDE 的 `.trae/Skills` 机制设计。
 
 **它的目标是**：把「行业最佳实践」沉淀为可复用的 Skill，让 AI 在 Trae 中扮演专业角色——产品经理、架构师、前端工程师、后端开发者、测试专家、SEO 专家等。
 
@@ -41,7 +41,7 @@ TraeSkill 是一个标准化的 **AI 技能集合**，为 Trae IDE 的 `.trae/sk
 ```mermaid
 flowchart LR
     U[开发者提问] --> T[Trae IDE]
-    T --> I[索引 .trae/skills 目录]
+    T --> I[索引 .trae/Skills 目录]
     I --> D[00_Meta_Dispatcher 调度中心]
 
     D --> P[01_ProductManager_Brainstorming<br/>产品需求与脑暴]
@@ -63,7 +63,7 @@ flowchart LR
 
 ```mermaid
 flowchart TB
-    Core[TraeSkill 核心 Skill<br/>.trae/skills] --> Product[产研设计<br/>00/01/02 开头]
+    Core[TraeSkill 核心 Skill<br/>.trae/Skills] --> Product[产研设计<br/>00/01/02 开头]
     Core --> Dev[前后端开发<br/>03/05 开头]
     Core --> QAOps[测试与运维<br/>04/05 开头]
     Core --> SEO[增长与 SEO<br/>06 开头]
@@ -99,11 +99,18 @@ flowchart TB
 git clone https://github.com/boshi-xixixi/TraeSkill.git
 ```
 
-在 Trae 中clone此仓库，AI 会自动索引到本项目中的 ./trae/skills 中的文件。
+在 Trae 中打开此仓库，AI 会自动索引到项目内 `.trae/Skills` 下的所有技能。
 
 ### 方式二：全局配置 skill
 
-将下载好的这个 skill 放到你的用户名下的 Trae 目录的 skill 的目录下即可，Trae 会自动索引到这个目录下的所有文件。（可以在设置中"规则和技能"中查看）
+把 `.trae/Skills` 下的技能目录复制到用户级技能目录即可，Trae 会全局索引（可在设置 →「规则和技能」中查看）：
+
+```bash
+# macOS / Linux
+cp -R .trae/Skills/* ~/.trae-cn/skills/
+```
+
+> Windows 对应目录为 `%USERPROFILE%\.trae-cn\skills\`。
 
 ***
 
@@ -116,9 +123,13 @@ git clone https://github.com/boshi-xixixi/TraeSkill.git
 |  00 | `Meta_Dispatcher`              | 任务调度与需求拆解           |
 |  01 | `ProductManager_Brainstorming` | 需求头脑风暴与 PRD 生成      |
 |  01 | `Architect_TechStackSelector`  | 技术栈选型与评估            |
+|  01 | `Discovery_GitHubSearch`       | GitHub 开源库检索与选型      |
 |  02 | `Architect_APIDesign`          | REST/GraphQL API 设计 |
+|  02 | `Designer_DesignSystem`        | Design Token 与组件规范  |
 |  02 | `Designer_UIUXIntelligence`    | UI/UX 智能知识库         |
 |  02 | `Designer_WebGuidelines`       | Web 设计规范审查          |
+|  02 | `Designer_FrontendImplementation` | 设计稿到前端代码的落地规范 |
+|  02 | `Designer_Motion`              | 动效设计与实现规范           |
 
 ### 💻 开发 `03-05`
 
@@ -177,17 +188,18 @@ git clone https://github.com/boshi-xixixi/TraeSkill.git
 
 |  编号 | 技能                      | 说明       |
 | :-: | :---------------------- | :------- |
+| 00 | `Meta_UniversalDevTeam` | 全能开发团队编排 |
 | 99 | `Meta_SkillCreator`     | 创建新技能    |
 | 99 | `Meta_Customization`    | 用户偏好设置   |
-| 00 | `Meta_UniversalDevTeam` | 全能开发团队编排 |
+| 99 | `Meta_TraeProjectSetup` | Trae 项目规范化配置 |
 
-### 🎨 图表生成套件 `.agents/skills`
+### 🎨 图表生成 `10`
 
 | 编号 | 技能                             | 说明                  |
 | :-: | :----------------------------- | :------------------ |
-| 10 | `fireworks-tech-graph`         | AI/Agent 技术图表（SVG+PNG） |
-| 10 | `architecture-diagram`         | 专业深色主题架构图（HTML+PDF） |
-| 10 | `excalidraw-diagram-generator` | 手绘风格协作图表（在线编辑）   |
+| 10 | `Diagram_FireworksTechGraph`   | AI/Agent 技术图表（SVG+PNG） |
+| 10 | `Diagram_Architecture`         | 专业深色主题架构图（HTML+PDF） |
+| 10 | `Diagram_Excalidraw`           | 手绘风格协作图表（在线编辑）   |
 
 ---
 
@@ -195,7 +207,7 @@ git clone https://github.com/boshi-xixixi/TraeSkill.git
 
 TraeSkill 覆盖了从"想做什么"到"如何上线"的完整软件开发生命周期：
 
-- 🧠 **Product & Design**：PRD 生成、需求澄清、用户故事拆解、设计系统
+- 🧠 **Product & Design**：PRD 生成、需求澄清、用户故事拆解、设计系统、动效规范
 - 🏗 **Architecture & Backend**：系统边界划分、接口设计、数据库建模、Node.js/Python 后端
 - 💻 **Frontend & Mobile**：React 性能优化、Flutter 架构、移动端开发
 - 🛡 **Quality & Operations**：浏览器自动化测试、安全审计、Git 工作流、CI/CD
@@ -208,9 +220,9 @@ TraeSkill 覆盖了从"想做什么"到"如何上线"的完整软件开发生命
 
 ## 🎨 图表生成套件
 
-TraeSkill 提供三个互补的图表生成 Skill，覆盖 95%+ 的技术图表需求：
+TraeSkill 提供三个互补的图表生成 Skill，覆盖 95%+ 的技术图表需求（位于 `.trae/Skills/10_Diagram_*`）：
 
-### 1. 🎯 fireworks-tech-graph（通用技术图表）
+### 1. 🎯 Diagram_FireworksTechGraph（通用技术图表）
 
 **输出格式**：SVG + PNG
 
@@ -221,7 +233,7 @@ TraeSkill 提供三个互补的图表生成 Skill，覆盖 95%+ 的技术图表�
 
 **适用场景**：Agent 架构、RAG Pipeline、技术文档、博客配图
 
-### 2. 🎨 architecture-diagram（专业深色架构图）
+### 2. 🎨 Diagram_Architecture（专业深色架构图）
 
 **输出格式**：HTML + SVG + PNG + PDF
 
@@ -232,7 +244,7 @@ TraeSkill 提供三个互补的图表生成 Skill，覆盖 95%+ 的技术图表�
 
 **适用场景**：云架构图、Kubernetes 部署、安全架构、深色主题演讲
 
-### 3. ✏️ excalidraw-diagram-generator（手绘协作图表）
+### 3. ✏️ Diagram_Excalidraw（手绘协作图表）
 
 **输出格式**：.excalidraw JSON（在线编辑）
 
@@ -247,17 +259,17 @@ TraeSkill 提供三个互补的图表生成 Skill，覆盖 95%+ 的技术图表�
 
 ```
 需要 AI/Agent 图表？
-  └─ 是 → fireworks-tech-graph ⭐
+  └─ 是 → Diagram_FireworksTechGraph ⭐
   └─ 否
       需要深色专业主题？
-        └─ 是 → architecture-diagram
+        └─ 是 → Diagram_Architecture
         └─ 否
             需要在线协作？
-              └─ 是 → excalidraw-diagram-generator
-              └─ 否 → fireworks-tech-graph（默认）
+              └─ 是 → Diagram_Excalidraw
+              └─ 否 → Diagram_FireworksTechGraph（默认）
 ```
 
-**详细文档**：[DIAGRAM-SKILLS-GUIDE.md](./.trae/skills/.agents/skills/DIAGRAM-SKILLS-GUIDE.md)
+**详细文档**：[10_Diagram_GUIDE.md](./.trae/Skills/10_Diagram_GUIDE.md)
 
 ---
 
@@ -320,7 +332,7 @@ python cursor_adapter/install.py
 |:---|:---|
 | [使用指南](./Trae_Skills_使用指南.md) | 详细的技能使用说明 |
 | [开发技能场景指南](./开发常用技能及场景指南.md) | 按场景分类的技能索引 |
-| [图表生成指南](./.trae/skills/.agents/skills/DIAGRAM-SKILLS-GUIDE.md) | 三个图表生成 Skill 的使用指南 |
+| [图表生成指南](./.trae/Skills/10_Diagram_GUIDE.md) | 三个图表生成 Skill 的使用指南 |
 
 ***
 
@@ -334,29 +346,3 @@ python cursor_adapter/install.py
   Made with ❤️ for the Trae Community
 </p>
 
----
-
-## 🖱️ Cursor IDE 支持
-
-> 本功能由 `cursor_adapter/` 提供，以**非侵入方式**适配 Cursor IDE，不修改任何原有文件。
-
-### 安装步骤
-
-克隆本仓库后，在项目根目录运行：
-
-```bash
-python cursor_adapter/install.py
-```
-
-脚本会读取 `.trae/Skills/` 中的所有 skill，自动生成 Cursor 兼容的 `.cursor/skills/` 目录。Cursor 会自动识别并激活对应的 AI 技能。
-
-### 保持同步
-
-原项目新增或更新 skill 后，重新运行一次即可，**无需修改适配层代码**：
-
-```bash
-python cursor_adapter/install.py
-```
-
-> `.cursor/` 目录为生成产物，已加入 `.gitignore`，不影响原项目代码。
-> 详见 [`cursor_adapter/README_CURSOR.md`](./cursor_adapter/README_CURSOR.md)。

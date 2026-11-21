@@ -24,27 +24,32 @@ description: "技术 SEO 专家，擅长网站性能优化、结构化数据、�
 
 ### 1. Core Web Vitals 优化
 
-**核心指标标准（2024）：**
+**核心指标标准（现行）：**
+
+Core Web Vitals 目前由 **LCP、INP、CLS** 三项构成。FID 已于 2024 年 3 月正式退役，不要再作为优化目标。
 
 ```
 LCP (Largest Contentful Paint) - 最大内容绘制
 ├── 优秀：< 2.5 秒
 ├── 需要改进：2.5 - 4 秒
 └── 差：> 4 秒
-└── 优化方法：CDN、缓存、图片优化、代码分割
+└── 优化方法：CDN、缓存、图片优化（AVIF/WebP）、预加载首屏资源、代码分割
 
-FID (First Input Delay) - 首次输入延迟（已替换为 INP）
 INP (Interaction to Next Paint) - 交互到下次绘制
 ├── 优秀：< 200 毫秒
 ├── 需要改进：200 - 500 毫秒
 └── 差：> 500 毫秒
-└── 优化方法：减少 JavaScript 体积、事件处理优化、Web Worker
+└── 优化方法：拆分长任务、减少 JavaScript 体积、事件处理去抖、Web Worker、yield to main thread
 
 CLS (Cumulative Layout Shift) - 累积布局偏移
 ├── 优秀：< 0.1
 ├── 需要改进：0.1 - 0.25
 └── 差：> 0.25
-└── 优化方法：图片尺寸固定、字体加载优化、广告位预留
+└── 优化方法：图片/视频写明尺寸、font-display 与字号回退匹配、广告位预留、避免动态插入顶部内容
+
+TTFB (Time to First Byte) - 首字节时间（诊断指标，非排名因子）
+├── 建议：< 800 毫秒
+└── 优化方法：服务端渲染缓存、边缘计算、数据库索引、HTTP/2 或 HTTP/3
 ```
 
 **性能优化工具：**

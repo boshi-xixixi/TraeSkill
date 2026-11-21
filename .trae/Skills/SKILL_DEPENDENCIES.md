@@ -2,9 +2,9 @@
 
 本文档描述了各 Skill 之间的调用关系和依赖关系，帮助理解 Skill 体系的协作机制。
 
-> **📌 自动生成**: 此文档由 `scripts/generate_dependencies.py` 自动生成，基于每个 Skill 的 `metadata.json` 和 SKILL.md 中的 `dependencies` 字段。
+> **📌 维护说明**: 本文档基于各 Skill 的 `metadata.json` 与 SKILL.md 中的 `dependencies`、`related_skills` 字段手工维护；结构一致性可用 `python scripts/validate_skills.py` 校验。
 >
-> **🕐 更新时间**: 2026-05-12
+> **🕐 更新时间**: 2026-11-21
 
 ---
 
@@ -28,6 +28,7 @@ graph TD
         FRONT[02_Designer_FrontendImplementation]
         UIUX[02_Designer_UIUXIntelligence]
         WEB[02_Designer_WebGuidelines]
+        MOTION[02_Designer_Motion]
     end
 
     subgraph "03 开发层"
@@ -144,6 +145,8 @@ UI 需求 → 02_Designer_UIUXIntelligence (设计系统生成)
     ↓
 02_Designer_FrontendImplementation (UI 实现)
     ↓
+02_Designer_Motion (交互与动效)
+    ↓
 02_Designer_WebGuidelines (规范检查)
     ↓
 04_Tester_BrowserAutomation (自动化测试)
@@ -176,6 +179,7 @@ API 需求 → 02_Architect_APIDesign (API 设计)
 | [02_Designer_UIUXIntelligence](02_Designer_UIUXIntelligence/SKILL.md) | 1.0.0 | - | FRONT, ARTIFACTS, FLUTTER |
 | [02_Designer_FrontendImplementation](02_Designer_FrontendImplementation/SKILL.md) | 1.0.0 | UIUX, WEB | TEAM |
 | [02_Designer_WebGuidelines](02_Designer_WebGuidelines/SKILL.md) | 1.0.0 | - | FRONT, TEAM |
+| [02_Designer_Motion](02_Designer_Motion/SKILL.md) | 1.0.0 | UIUX, FRONT | FRONT, REACT, TEAM |
 | [03_Mobile_Flutter](03_Mobile_Flutter/SKILL.md) | 1.0.0 | FLUTTER_CN, UIUX | META, TEAM |
 | [03_Mobile_FlutterChinaDeploy](03_Mobile_FlutterChinaDeploy/SKILL.md) | 1.0.0 | - | FLUTTER |
 | [03_Developer_ReactBestPractices](03_Developer_ReactBestPractices/SKILL.md) | 1.0.0 | - | ARTIFACTS, TEAM |
@@ -365,4 +369,4 @@ python3 scripts/validate_skills.py --validate-deps
 
 ---
 
-*本文档由 TraeSkill 自动维护，最后更新于 2026-05-12*
+*本文档随 TraeSkill 一同维护，最后更新于 2026-11-21*

@@ -78,9 +78,9 @@ class SkillValidator:
         if len(parts) >= 1:
             try:
                 num = int(parts[0])
-                if num not in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 99]:
+                if num not in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 99]:
                     result.warnings.append(
-                        f"层级编号 {num} 不在标准范围内 (0-9, 99)"
+                        f"层级编号 {num} 不在标准范围内 (0-10, 99)"
                     )
             except ValueError:
                 result.errors.append(f"目录编号不是有效数字: {parts[0]}")

@@ -1,0 +1,15 @@
+{
+  "name": "Motion Designer",
+  "version": "1.0.0",
+  "description": "动效设计与实现规范：曲线、时长、编排、手势、性能与可访问性",
+  "category": "design",
+  "dependencies": [],
+  "related_skills": [
+    "02_Designer_FrontendImplementation",
+    "02_Designer_UIUXIntelligence",
+    "03_Developer_ReactBestPractices"
+  ],
+  "last_updated": "2026-11-21",
+  "author": "TraeSkill Team",
+  "tags": ["motion", "animation", "interaction", "design", "accessibility"]
+}
