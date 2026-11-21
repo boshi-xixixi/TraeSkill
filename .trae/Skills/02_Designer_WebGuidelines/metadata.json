@@ -1,7 +1,7 @@
 {
   "name": "Web 界面规范审查",
-  "version": "1.0.0",
-  "description": "对照 Web 指南与 WCAG 2.2 审查 UI",
+  "version": "1.1.0",
+  "description": "UI 规范审查、WCAG 2.2 可访问性与性能提速方法论",
   "category": "design",
   "dependencies": [],
   "related_skills": [

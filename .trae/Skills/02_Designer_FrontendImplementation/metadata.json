@@ -1,7 +1,7 @@
 {
   "name": "前端界面实现",
-  "version": "1.0.0",
-  "description": "打造无 AI 塑料感的高质量网页界面",
+  "version": "1.1.0",
+  "description": "打造无 AI 塑料感的高质量网页界面，含界面范式与参考借鉴方法",
   "category": "frontend",
   "dependencies": [],
   "related_skills": [

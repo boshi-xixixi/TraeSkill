@@ -1,7 +1,7 @@
 {
   "name": "Technical Writer",
-  "version": "1.0.0",
-  "description": "技术写作：论文与报告结构、论证组织、引用格式与去 AI 腔",
+  "version": "1.1.0",
+  "description": "技术写作：论文与报告结构、报告原型、引用格式与四层去 AI 味",
   "category": "writing",
   "dependencies": [],
   "related_skills": [
